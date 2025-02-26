@@ -1,0 +1,25 @@
+body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 3em;
+    color: #333;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #666;
+    margin: 0.5em;
+}
