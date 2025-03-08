@@ -1,10 +1,36 @@
 <div class="company-info">
-    <p>Omega Corp is a leading electrical contractor known for its exceptional work and customer satisfaction. We
-        specialize in a wide range of electrical services, ensuring quality and safety in every project.</p>
-</div>
-
-<div class="photo-gallery">
-    <div class="photo" *ngFor="let photo of photos">
-        <img [src]="photo" alt="Omega Corp Project Photo">
+    <h1>About Omega Corp</h1>
+    <p>Omega Corp is a leading electrical contractor known for its exceptional work and customer satisfaction. We specialize in a wide range of electrical services, ensuring quality and safety in every project.</p>
+  </div>
+  
+  <div class="photo-gallery">
+    <h2>Renovations</h2>
+    <div *ngFor="let project of renovation_photos">
+      <h3>{{ project[0] }}</h3>
+      <div class="photo" *ngFor="let photo of project.slice(1)">
+        <img [src]="photo" alt="Omega Corp Project Photo" (click)="openModal(photo)">
+      </div>
     </div>
-</div>
+  
+    <h2>Electric Work</h2>
+    <div *ngFor="let project of electric_photos">
+      <h3>{{ project[0] }}</h3>
+      <div class="photo" *ngFor="let photo of project.slice(1)">
+        <img [src]="photo" alt="Omega Corp Project Photo" (click)="openModal(photo)">
+      </div>
+    </div>
+  
+    <h2>Concrete Work</h2>
+    <div *ngFor="let project of concrete_photos">
+      <h3>{{ project[0] }}</h3>
+      <div class="photo" *ngFor="let photo of project.slice(1)">
+        <img [src]="photo" alt="Omega Corp Project Photo" (click)="openModal(photo)">
+      </div>
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
