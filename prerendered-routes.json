@@ -1,6 +1,6 @@
 {
   "routes": {
-    "/https://patriickdoyle.github.io/dev/omega-corp-frontend": {},
-    "/https://patriickdoyle.github.io/dev/omega-corp-frontend/contact-us": {}
+    "/https://patriickdoyle.github.io/dev": {},
+    "/https://patriickdoyle.github.io/dev/contact-us": {}
   }
 }

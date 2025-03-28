@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://patriickdoyle.github.io/dev/omega-corp-frontend',
+  basePath: 'https://patriickdoyle.github.io/dev',
   supportedLocales: {
   "en-US": ""
 },
