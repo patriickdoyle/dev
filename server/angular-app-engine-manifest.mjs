@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://patriickdoyle.github.io/dev',
+  basePath: '/dev',
   supportedLocales: {
   "en-US": ""
 },

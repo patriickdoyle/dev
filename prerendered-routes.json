@@ -1,6 +1,6 @@
 {
   "routes": {
-    "/https://patriickdoyle.github.io/dev": {},
-    "/https://patriickdoyle.github.io/dev/contact-us": {}
+    "/dev": {},
+    "/dev/contact-us": {}
   }
 }
